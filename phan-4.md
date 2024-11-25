@@ -96,9 +96,9 @@ return (
 - Bạn cài thư viện 
 - Bạn nhúng thư viện vào đầu file chứa component  TrackProgress 
 https://github.com/callstack/react-native-slider 
-``` 
-import Slider from '@react-native-community/slider';
 ```javascript
+import Slider from '@react-native-community/slider';
+```
 - Bạn thêm vào phần return của TrackProgress thẻ Slider (có thể sửa style của thẻ view chứa để căn chỉnh cho đẹp
 
 ```javascript
