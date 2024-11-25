@@ -68,7 +68,7 @@ export async function playbackService() {
 
 ## Bước 3: Khai báo trong file index.js
  
-```
+```javascript
 import TrackPlayer from 'react-native-track-player';
 import { playbackService } from './trackPlayerServices';
 AppRegistry.registerComponent(appName, () => App);
@@ -77,7 +77,7 @@ TrackPlayer.registerPlaybackService(() => playbackService);
 
 ## Bước 4: Code trong file App.tsx
 
-```
+```javascript
 // 1. import các thư viện
 import React, { useEffect, useState } from 'react';
 import {
