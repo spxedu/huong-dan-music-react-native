@@ -126,3 +126,11 @@ function Playlist() {
 } 
 ```
 ## Bước 5: Xóa nút bấm ở phần return của component chính
+
+ ![Xóa nút bấm ở phần return của component chính](https://raw.githubusercontent.com/spxedu/huong-dan-music-react-native/refs/heads/main/btn.png
+)
+
+## Bước 6: Chạy ứng dụng và thử nghiệm các nút bấm
+
+
+
