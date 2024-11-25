@@ -52,12 +52,8 @@ const customTextButton = (
 
 ## Các thuộc tính cơ bản
 
-
-Prop|	Description|	Default
-color	Text and icon color, use iconStyle or nest a Text component if you need different colors.	white
-size	Icon size.	20
-iconStyle	Styles applied to the icon only, good for setting margins or a different color. Note: use iconStyle for margins or expect unstable behaviour.	{marginRight: 10}
-backgroundColor	Background color of the button.	#007AFF
-borderRadius	Border radius of the button, set to 0 to disable.	5
-onPress	A function called when the button is pressed.	None
+ ![Các thuộc tính cơ bản](https://raw.githubusercontent.com/spxedu/huong-dan-music-react-native/refs/heads/main/icon.jpg)
+ 
+ 
+ 
 
