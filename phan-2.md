@@ -1,11 +1,10 @@
 # Bài viết này sẽ cải tiến ứng dụng để quản lý Playlist.
 TrackPlayer cung cấp một số hàm điều khiển chơi nhạc:
-
-TrackPlayer.remove: Xóa một bản nhạc ra khỏi danh sách theo số thứ tự (đối với các bản nhạc đã được add bởi hàm addTracks()
-TrackPlayer.skip: Chuyển tới một bản nhạc được chỉ định bởi số thứ tự
-TrackPlayer.next: Chuyển sang bản nhạc tiếp theo
-TrackPlayer.previous: Chuyển về bản nhạc trước đó
-TrackPlayer.reset: Xóa danh sách nhạc và dừng phát nhạc
+- TrackPlayer.remove: Xóa một bản nhạc ra khỏi danh sách theo số thứ tự (đối với các bản nhạc đã được add bởi hàm addTracks()
+- TrackPlayer.skip: Chuyển tới một bản nhạc được chỉ định bởi số thứ tự
+- TrackPlayer.next: Chuyển sang bản nhạc tiếp theo
+- TrackPlayer.previous: Chuyển về bản nhạc trước đó
+- TrackPlayer.reset: Xóa danh sách nhạc và dừng phát nhạc
 
 ## Bước 1: Bổ sung thêm import component trong file App.tsx
 Chú ý: Bạn cần so sánh sự khác biệt code này với code ở bài trước để biết sẽ thêm component nào
@@ -125,14 +124,14 @@ export async function addTracks() {
     {
       id: '1',
       url: 'https://cdn.pixabay.com/audio/2022/10/18/audio_31c2730e64.mp3',
-      title: 'Password Infinity',
-      artist: 'zezo.dev',
+      title: 'Ten bai hat',
+      artist: 'ABC....',
      },
      {
       id: '2',
       url: 'https://www.w3schools.com/tags/horse.mp3',
       title: 'horse',
-      artist: 'zezo.dev',
+      artist: 'ABC 123456....',
      }
   ]);
   await TrackPlayer.setRepeatMode(RepeatMode.Queue);
