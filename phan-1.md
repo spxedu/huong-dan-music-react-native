@@ -138,3 +138,13 @@ export default App;
 
 ## Bước 5: Chạy thử ứng dụng
 Ứng dụng ở bước này sẽ có một nút play ở màn hình, bấm nút sẽ bắt đầu phát nhạc, ứng dụng sẽ chạy lặp lại bài hát vĩnh viễn nhờ lệnh setRepeatMode ở trong hàm addTracks() trong file service.
+
+Chú ý:
+Khi biên dịch mới có thể lỗi thì hãy kiểm tra và điều chỉnh thuộc tính của gradle
+![Thời điểm hiện tại cần điều chỉnh gradle](https://raw.githubusercontent.com/spxedu/huong-dan-music-react-native/refs/heads/main/gradle.jpg
+)
+
+
+
+
+
