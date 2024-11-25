@@ -10,7 +10,7 @@ Trong code dưới đây:
 - playbackService: Hàm dùng khai báo các sự kiện tương tác với Player
 
  
-```
+```javascript
 import TrackPlayer, {
   AppKilledPlaybackBehavior,
   Capability,
